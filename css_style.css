@@ -1,10 +1,16 @@
+@font-face{
+    font-family: 
+}
+
 #header, li, h2{
     
     text-align: center;
     background-color: aqua;
+    background-size: 80px 60x;
     text-align: center;
     display: block;
-    font-family: young, sans-serif;
+    font-family: Young;
+    
     
 }
 
@@ -29,9 +35,10 @@ img {
 
 
 
-h2 {
+h1 {
     text-align: center;
     padding: 10px 20px;
-    font-family: sans-serif;
+    
+
 }
 

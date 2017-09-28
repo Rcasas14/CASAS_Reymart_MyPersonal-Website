@@ -13,27 +13,38 @@
         url("Existence-UnicaseLight.otf");
 }
 
-#header, li, h2{
+#header {
     
-    text-align: center;
-    background-color: aqua;
-    background-size: 80px 60x;
-    text-align: center;
+    
     display: block;
-    font-family: 'Biko_Bold';
-    
-    
+    background-image: url(Images/wood-night-camera-vintage.jpg);
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 600px;
+    width: 100%
 }
 
 
-body{
+
+
+
+
+h1 {
+    text-align: center;
+    padding: 10px 20px;
     
-    background-color: #f4f4f4;
+
 }
+
 
 
 img {
-    border-radius: 50%;
+   
     margin-right: 50%;
     display: block;
     margin: auto;
@@ -45,52 +56,6 @@ img {
 }
 
 
-
-h1 {
-    text-align: center;
-    padding: 10px 20px;
-    
-
-}
-
-.container {
-    position: relative;
-    width: 50%;
-}
-
-.image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5 ease;
-    backface-visibility: hidden;
-    
-}
-
-.middle{
-    transition: .5 ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-.container:hover .image{
-    opacity: 0.3;
-}
-
-.container:hover .middle{
-    opacity: 1;
-}
-
-.text {
-    background-color: transparent;
-    color:white;
-    font-size: 16px;
-    padding: 16px 32px;
-}
 
 
 

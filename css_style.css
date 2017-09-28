@@ -19,13 +19,11 @@
     display: block;
     background-image: url(Images/wood-night-camera-vintage.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     max-height: 100%;
     max-width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 600px;
+   
+    height: 700px;
     width: 100%
 }
 
@@ -44,14 +42,17 @@ h1 {
 
 
 img {
-   
+ 
     margin-right: 50%;
+    margin-left: 15%;
+    padding-top: 30px;
     display: block;
-    margin: auto;
-    max-height: 290px;
-    max-width: 290px;
+    max-height: 250px;
+    max-width: 250px;
     width: 290px;
     height: 290px;
+    border-radius: 50%;
+    
     
 }
 

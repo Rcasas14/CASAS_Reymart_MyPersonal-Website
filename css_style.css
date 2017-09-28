@@ -1,5 +1,16 @@
 @font-face{
-    font-family: 
+    font-family: youngimport, bikoimport, existenceimport;
+    
+    src:url("Young.ttf"),
+        url("Young italic.ttf");
+    src:url("Biko_Black.otf"),
+        url("Biko_Bold.otf"),
+        url("Biko_Light-Restricted.otf"),
+        url("Biko_Regular.otf");
+    src:url("Existence-Light.otf"),
+        url("Existence-Light.ttf"),
+        url("Existence-StencilLight.otf")
+        url("Existence-UnicaseLight.otf");
 }
 
 #header, li, h2{
@@ -9,7 +20,7 @@
     background-size: 80px 60x;
     text-align: center;
     display: block;
-    font-family: Young;
+    font-family: 'Biko_Bold';
     
     
 }
@@ -41,4 +52,47 @@ h1 {
     
 
 }
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5 ease;
+    backface-visibility: hidden;
+    
+}
+
+.middle{
+    transition: .5 ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.container:hover .image{
+    opacity: 0.3;
+}
+
+.container:hover .middle{
+    opacity: 1;
+}
+
+.text {
+    background-color: transparent;
+    color:white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
+
+
 

@@ -1,15 +1,19 @@
-body{
+#header, li, h2{
     
-    background-color: #84A7BF;
-}
-
-h1{
-
+    text-align: center;
+    background-color: aqua;
     text-align: center;
     display: block;
-    
+    font-family: young, sans-serif;
     
 }
+
+
+body{
+    
+    background-color: #f4f4f4;
+}
+
 
 img {
     border-radius: 50%;
@@ -19,18 +23,13 @@ img {
     max-height: 290px;
     max-width: 290px;
     width: 290px;
-    height: 290px
-}
-
-div.polariod {
+    height: 290px;
     
-    width: 80%;
-    background-color: powderblue;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px rgba(0,0.19);
-    margin-bottom: 25px;
 }
 
-div.container {
+
+
+h2 {
     text-align: center;
     padding: 10px 20px;
     font-family: sans-serif;

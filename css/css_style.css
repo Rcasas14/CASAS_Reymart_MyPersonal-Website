@@ -1,7 +1,13 @@
+@font-face {
+    font-family: "Hickory Jack";
+    src: url(../Fonts/HickoryJack/HickoryJack.ttf);
+}
+
 #header {
     display: block;
     background-image: url(../Images/wood-night-camera-vintage.jpg);
     background-size: cover;
+    opacity: 0.96;
     background-repeat: no-repeat;
     max-height: 100%;
     max-width: 100%;
@@ -10,10 +16,16 @@
     margin-bottom: 0;
 }
 
-#header .front-text .Hey {
+.front-text {
     text-align: center;
-    color: #fff !important;
-    font-size: 46px;
+    font-size: 120px;
+    font-family: "Hickory Jack";
+}
+
+.Hey {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Hickory Jack";
 }
 
 h1 {
@@ -21,6 +33,7 @@ h1 {
     padding: 10px 5px;
     color: white;
     padding-right: 30px;
+    font-family: "Hickory Jack";
 }
 
 h2 {

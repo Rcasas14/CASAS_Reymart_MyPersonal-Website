@@ -65,12 +65,11 @@ h2 {
 }
 
 .image_container img:hover {
-    margin-top: 1px;
+    margin-top: 2px;
 }
 
 .image_container {
     height: 473px;
-   
 }
 
 .padding {
@@ -161,6 +160,5 @@ h2 {
 }
 
 .frontContainer {
-    
     padding-bottom: 200px;
 }

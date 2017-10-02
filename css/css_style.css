@@ -162,3 +162,7 @@ h2 {
 .frontContainer {
     padding-bottom: 200px;
 }
+
+.log-list{
+    float: left;
+}

@@ -254,7 +254,7 @@
 }
 
 .music-container {
-    height: 397px;
+    height: 366px;
     margin: 0;
     margin-left: 200px;
     margin-right: 200px;
@@ -290,7 +290,7 @@
 }
 
 .game-container {
-    height: 397px;
+    height: 366px;
     margin: 0;
     margin-left: 200px;
     margin-right: 200px;
@@ -313,7 +313,7 @@
 }
 
 .Web-des-container {
-    height: 397px;
+    height: 366px;
     margin: 0;
     margin-left: 200px;
     margin-right: 200px;
@@ -336,7 +336,7 @@
 }
 
 .Photography-container {
-    height: 397px;
+    height: 366px;
     margin: 0;
     margin-left: 200px;
     margin-right: 200px;
@@ -359,7 +359,7 @@
 }
 
 .Movie-container {
-    height: 397px;
+    height: 366px;
     margin: 0;
     margin-left: 200px;
     margin-right: 200px;
@@ -417,4 +417,8 @@
     margin-bottom: 30px;
     border: 2.5px solid #fff;
     
+}
+.Home-button a{
+    font-family: "Montserrat-Regular";
+    font-size: 20px;
 }

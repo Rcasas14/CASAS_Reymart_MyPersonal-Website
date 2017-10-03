@@ -1,8 +1,14 @@
 @font-face {
     font-family: "Hickory Jack";
     src: url(../Fonts/HickoryJack/HickoryJack.ttf);
+}
+
+@font-face {
     font-family: "Roboto-Light";
     src: url("../Fonts/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
     font-family: "Montserrat-Regular";
     src: url(../Fonts/Montserrat/Montserrat-Regular.otf);
 }
@@ -225,7 +231,7 @@
 }
 
 .bground {
-    background-color: rgb( 248, 244, 244 );
+    background-color: rgb( 248, 244, 244);
 }
 
 .top-interest h2 {
@@ -254,40 +260,47 @@
     border: 0px solid #000;
     background-color: gray;
     background-size: contain;
-    
-    
 }
 
 .music-desc {
-    
-    margin-right: 220px;
+    margin-right: 160px;
     display: block;
     color: #fff;
     opacity: 0.9;
-    font-size: 40px;
+    font-size: 45px;
     float: left;
+    font-family: "Roboto-Light";
 }
 
-.p-div{
+.p-div {
     float: right;
 }
 
+.game-div {
+    float: left;
+}
+
 .game-container {
-    height: 370px;
-    
-    margin-left: 90px;
-    margin-right: 90px;
+    height: 397px;
+    margin: 0;
+    margin-left: 200px;
+    margin-right: 200px;
     border: 0px solid #000;
-    background-color: #000;
+    background-color: rgb(10,10,10);
     background-size: contain;
-    
+}
+
+.game-image {
+    float: right;
 }
 
 .game-desc {
-    float: left;
+   
     margin-left: 0px;
     display: block;
     color: #fff;
     opacity: 0.9;
-    font-size: 34px;
+    font-size: 45px;
+    float: right;
+    font-family: "Roboto-Light";
 }

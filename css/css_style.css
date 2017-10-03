@@ -212,7 +212,7 @@
 }
 
 .p-border {
-    border: 2px dotted #fff;
+    border: 2px solid #fff;
     padding: 20px 30px;
     margin-right: 100px;
     background-size: contain;
@@ -221,10 +221,10 @@
 }
 
 .p-contain {
-    padding-top: 55px;
-    padding-left: 50px;
-    padding-right: 50px;
-    height: 200px;
+    padding-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 120px;
     margin-right: 320px;
     margin-left: 320px;
     display: block;
@@ -238,7 +238,7 @@
     font-family: "Montserrat-Regular";
     text-align: center;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 300;
     display: block;
     background-color: bisque;
@@ -246,6 +246,7 @@
     padding: 42px 42px;
     padding-top: 50px;
     margin: 0;
+    overflow: hidden;
 }
 
 .f-container {
@@ -280,13 +281,17 @@
     float: left;
 }
 
+.web-div {
+    float: right;
+}
+
 .game-container {
     height: 397px;
     margin: 0;
     margin-left: 200px;
     margin-right: 200px;
     border: 0px solid #000;
-    background-color: rgb(10,10,10);
+    background-color: #465977;
     background-size: contain;
 }
 
@@ -295,12 +300,33 @@
 }
 
 .game-desc {
-   
-    margin-left: 0px;
+    margin-right: 50px;
     display: block;
     color: #fff;
     opacity: 0.9;
     font-size: 45px;
-    float: right;
     font-family: "Roboto-Light";
+}
+
+.Web-des-container {
+    height: 397px;
+    margin: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 0px solid #000;
+    background-color: #916f54;
+    background-size: contain;
+}
+
+.web-desc {
+    margin-left: 50px;
+    display: block;
+    color: #fff;
+    opacity: 0.9;
+    font-size: 45px;
+    font-family: "Roboto-Light";
+}
+
+.Web-image {
+    float: left;
 }

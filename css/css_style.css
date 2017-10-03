@@ -225,7 +225,7 @@
 }
 
 .bground {
-    background-color: #FDF3E7;
+    background-color: rgb( 248, 244, 244 );
 }
 
 .top-interest h2 {
@@ -252,30 +252,29 @@
     margin-left: 200px;
     margin-right: 200px;
     border: 0px solid #000;
-    background-color: #485168;
+    background-color: gray;
     background-size: contain;
+    
+    
 }
 
 .music-desc {
-    float: right;
+    
     margin-right: 220px;
     display: block;
     color: #fff;
     opacity: 0.9;
-    font-size: 34px;
+    font-size: 40px;
+    float: left;
 }
-.music-image img{
-    margin: 48 42 48 50;
-    border-radius: 50%;
-    border: 2.5px solid #fff;
-    
-   
-   
+
+.p-div{
+    float: right;
 }
 
 .game-container {
     height: 370px;
-    margin: 0;
+    
     margin-left: 90px;
     margin-right: 90px;
     border: 0px solid #000;

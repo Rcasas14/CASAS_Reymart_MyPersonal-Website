@@ -339,7 +339,7 @@
     margin-left: 200px;
     margin-right: 200px;
     border: 0px solid #000;
-    background-color: #465977;
+    background-color: #3e8765;
     background-size: contain;
 }
 .photo-image{
@@ -352,4 +352,39 @@
     opacity: 0.9;
     font-size: 45px;
     font-family: "Roboto-Light";
+}
+.Movie-container{
+    height: 397px;
+    margin: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 0px solid #000;
+    background-color: #8c2c2c;
+    background-size: contain;
+}
+.movie-image{
+    float: left;
+}
+.movie-desc{
+   margin-left: 50px;
+    display: block;
+    color: #fff;
+    opacity: 0.9;
+    font-size: 45px;
+    font-family: "Roboto-Light"; 
+}
+.movie-div{
+    float: right;
+}
+
+.list li, img{
+    float: left;    
+    display: inline-block;
+    line-height: 57px;
+    padding-right: 100px;
+    height: 64px;
+}
+
+.list{
+    margin-left: 340px;
 }

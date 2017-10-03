@@ -284,6 +284,9 @@
 .web-div {
     float: right;
 }
+.photo-div{
+    float: left;
+}
 
 .game-container {
     height: 397px;
@@ -329,4 +332,24 @@
 
 .Web-image {
     float: left;
+}
+.Photography-container{
+    height: 397px;
+    margin: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 0px solid #000;
+    background-color: #465977;
+    background-size: contain;
+}
+.photo-image{
+    float: right;
+}
+.photo-desc{
+    margin-right: 50px;
+    display: block;
+    color: #fff;
+    opacity: 0.9;
+    font-size: 45px;
+    font-family: "Roboto-Light";
 }

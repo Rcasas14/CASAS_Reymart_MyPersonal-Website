@@ -284,7 +284,8 @@
 .web-div {
     float: right;
 }
-.photo-div{
+
+.photo-div {
     float: left;
 }
 
@@ -333,7 +334,8 @@
 .Web-image {
     float: left;
 }
-.Photography-container{
+
+.Photography-container {
     height: 397px;
     margin: 0;
     margin-left: 200px;
@@ -342,10 +344,12 @@
     background-color: #3e8765;
     background-size: contain;
 }
-.photo-image{
+
+.photo-image {
     float: right;
 }
-.photo-desc{
+
+.photo-desc {
     margin-right: 50px;
     display: block;
     color: #fff;
@@ -353,7 +357,8 @@
     font-size: 45px;
     font-family: "Roboto-Light";
 }
-.Movie-container{
+
+.Movie-container {
     height: 397px;
     margin: 0;
     margin-left: 200px;
@@ -362,29 +367,54 @@
     background-color: #8c2c2c;
     background-size: contain;
 }
-.movie-image{
+
+.movie-image {
     float: left;
 }
-.movie-desc{
-   margin-left: 50px;
+
+.movie-desc {
+    margin-left: 50px;
     display: block;
     color: #fff;
     opacity: 0.9;
     font-size: 45px;
-    font-family: "Roboto-Light"; 
+    font-family: "Roboto-Light";
 }
-.movie-div{
+
+.movie-div {
     float: right;
 }
 
-.list li, img{
-    float: left;    
+.list li {
+    float: left;
     display: inline-block;
     line-height: 57px;
     padding-right: 100px;
-    height: 64px;
 }
 
-.list{
-    margin-left: 340px;
+.list img {
+    height: 64px;
+    background-color: #8c2c2c;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.list {
+    margin-left: 420px;
+}
+
+.list img:hover {
+    background: #fff;
+}
+
+.image-front img{
+    border-radius: 50%;
+    height: 100px;
+    display: block;
+    margin-left: 600px;
+    margin-right: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2.5px solid #fff;
+    
 }

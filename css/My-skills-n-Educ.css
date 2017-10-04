@@ -183,7 +183,7 @@
     text-align: center;
     float: left;
     height: 200px;
-    margin-left: 150px;
+    margin-left: 35px;
     margin-right: 20px;
 }
 
@@ -193,10 +193,12 @@
     padding-left: 42px;
     padding-right: 42px;
     text-align: center;
+    font-family: "Montserrat-Regular";
+    color: #fff;
 }
 
 #c-border {
-    border: 2px solid #000;
+    border: 2px solid #fff;
     padding: 1;
 }
 
@@ -217,9 +219,11 @@
     padding-left: 42px;
     padding-right: 42px;
     text-align: center;
+    font-family: "Montserrat-Regular";
+    color: #fff;
 }
 #h-border{
-    border: 2px solid #000;
+    border: 2px solid #fff;
     padding: 1;
 }
 
@@ -229,16 +233,41 @@
     float: left;
     height: 200px;
     margin-left: 10px;
-    margin-right: 20px; 
+    margin-right: 25px; 
 }
 .e-contain p{
     padding-top: 42px;
     padding-bottom: 42px;
     padding-left: 42px;
-    padding-right: 42px;
+    padding-right: 20px;
     text-align: center;
+    font-family: "Montserrat-Regular";
+    color: #fff;
+
 }
 #e-border{
-    border: 2px solid #000;
+    border: 2px solid #fff;
     padding: 1;
+}
+
+.edu-out-border{
+    margin-top: 85px;
+    height: 280px;
+    border: 2px solid #fff;
+    padding-top: 20px;
+    margin-left: 120px;
+    margin-right: 110px;
+    background-color: rgba(0,0,0,0.7);
+   
+}
+.univ{
+    font-family: "Roboto-Light";
+    font-size: 15px;
+}
+.year{
+    font-family: "Roboto-Light";
+    font-size: 12px;
+}
+.Education-container{
+    
 }

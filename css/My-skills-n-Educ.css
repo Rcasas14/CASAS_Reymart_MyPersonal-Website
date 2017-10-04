@@ -2,10 +2,9 @@
     font-family: "Roboto-Light";
     src: url("../Fonts/Roboto/Roboto-Light.ttf");
 }
-.myskills-container {
-    margin-left: 100px;
-    margin-top: 90px;
-    padding: 60px 60px;
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../Fonts/Montserrat/Montserrat-Regular.otf);
 }
 
 .container {
@@ -21,6 +20,7 @@
     width: 90;
     height: 90;
 }
+
 
 .h-overlay {
     position: absolute;
@@ -112,6 +112,7 @@
 
 .t-container:hover .h-overlay {
     height: 110px;
+    width: 93px;
 }
 
 .t-container {
@@ -148,4 +149,43 @@
 
 .font-style{
     font-family: "Roboto-Light";
+}
+
+.myskills-div h2 {
+    font-family: "Montserrat-Regular";
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 300;
+    display: block;
+    background-color: bisque;
+    background-size: cover;
+    padding: 42px 42px;
+    padding-top: 50px;
+    margin: 0;
+    overflow: hidden;
+}
+.myskills-container {
+    margin-left: 100px;
+   
+}
+
+#m-border{
+    border: 2.8px solid #000;
+    padding-bottom: 125px;
+    padding-top: 50px;
+    padding-left: 100px;
+    margin: 0;
+    
+}
+
+.college{
+    margin-top: 20px;
+    text-align: center;
+    margin: 0;
+    float left;
+    height: 250px;
+}
+#c-border{
+    border: 5px solid #000;
 }

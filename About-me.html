@@ -10,11 +10,21 @@
 </head>
 
 <body class="bground">
+
     <div class="Head-about">
-        <div class="Home-button">
-            <a href="index.html" class="button big">HOME</a>
-        </div>
-        <h1 class="about-text">ABOUT ME</h1>
+        <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">HOME</a>
+        <a href="#about">ABOUT ME</a>
+        <a href="#interest">INTEREST</a>
+        <a href="#skills">SKILLS and EDUCATION</a>
+        <a href="#myrecent">MY RECENT WORKS</a>
+    </div>
+
+    <span class="o-style" id="o-border" style="font-size:30px;cursor:pointer" onclick="openNav()" >&#9776; OPEN</span>
+        
+        
+        <h1 class="about-text" id="about">ABOUT ME</h1>
         <p class="parag p-border p-contain">
             Hey, My Name is Reymart Calunsag Casas a proud agusanon. I am very passionate in the world of web designs. For me it's like creating your own world. I am quite versatile when comes to front-end and back-end programming. It relates to my personality a jolly and humorous to a different kind of person. I have all the knowledge and skills you need. Hope to serve you well.
         </p>
@@ -39,7 +49,7 @@
         </div>
     </div>
     <div class="top-interest reset-margin">
-        <h2>INTEREST AND HOBBIES</h2>
+        <h2 id="interest">INTEREST AND HOBBIES</h2>
     </div>
     <div class="f-container" id="f-border">
 
@@ -99,7 +109,7 @@
 
     <!--MY SKillS and EDUCATION-->
     <div class="myskills-div reset-margin">
-        <h2>MY SKILLS and EDUCATION</h2>
+        <h2 id="skills">MY SKILLS and EDUCATION</h2>
     </div>
     <div class="myskills-container" id="m-border">
 
@@ -180,7 +190,7 @@
     </div>
 
     <div class="my-recent">
-        <h2>MY RECENT WORK</h2>
+        <h2 id="myrecent">MY RECENT WORK</h2>
     </div>
     <div class="recent-container">
         <div class="gam-container">
@@ -198,7 +208,9 @@
                 <img src="Myrecent-images/img2.png" class="game-pic">
                 <div class="game-div">
                     <p class="game-desc">CREATED
-                        <br> LINE ART<br> AND VECTOR<br>MANIPULATION</p>
+                        <br> LINE ART
+                        <br> AND VECTOR
+                        <br>MANIPULATION</p>
                 </div>
             </div>
         </div>
@@ -207,12 +219,16 @@
                 <img src="Myrecent-images/img3.png" class="web-pic">
                 <div class="web-div">
                     <p class="web-desc"> CREATED
-                        <br>OWN LOGO <br>DESIGN</p>
+                        <br>OWN LOGO
+                        <br>DESIGN</p>
                 </div>
             </div>
         </div>
     </div>
 
+<script src="Script/myrecent.js"></script>    
+    
+    
 </body>
 
 </html>

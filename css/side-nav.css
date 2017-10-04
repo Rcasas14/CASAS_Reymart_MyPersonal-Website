@@ -43,10 +43,9 @@ body {
     color: #f1f1f1;
 }
 
-#mySidenav {}
 
 .nav {
-    
+    margin-top: 0;
 }
 
 .sidenav .closebtn {
@@ -70,11 +69,13 @@ body {
 
 .o-style {
     font-family: "Montserrat-Regular";
-    color: aliceblue;
+    color: #000;
+    position: fixed;
+    margin-top: 82px;
 }
 
 #o-border {
-    border: 2px solid #fff;
+    border: 2px solid #000;
     padding: 3px 3px;
     
 }

@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("../Fonts/Roboto/Roboto-Light.ttf");
+}
+.myskills-container {
+    margin-left: 100px;
+    margin-top: 90px;
+    padding: 60px 60px;
+}
+
+.container {
+    position: relative;
+    float: left;
+    height: 100px;
+    margin-left: 40px;
+    margin-right: 55px;
+}
+
+.h-image {
+    display: block;
+    width: 90;
+    height: 90;
+}
+
+.h-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    overflow: hidden;
+    width: 90;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container:hover .h-overlay {
+    height: 90;
+}
+
+.h-text {
+    white-space: nowrap;
+    color: #000;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.p-text {
+    white-space: nowrap;
+    color: #000;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.p-container:hover .h-overlay {
+    height: 110px;
+}
+
+.p-container {
+    position: relative;
+    float: left;
+    height: 110px;
+    margin-left: 40px;
+    margin-right: 55px;
+}
+
+.w-text {
+    white-space: nowrap;
+    color: #000;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.w-container:hover .h-overlay {
+    height: 110px;
+}
+
+.w-container {
+    position: relative;
+    float: left;
+    height: 110px;
+    margin-left: 40px;
+    margin-right: 55px;
+}
+
+.t-text {
+    white-space: nowrap;
+    color: #000;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.t-container:hover .h-overlay {
+    height: 110px;
+}
+
+.t-container {
+    position: relative;
+    float: left;
+    height: 110px;
+    margin-left: 40px;
+    margin-right: 55px;
+}
+
+.j-text {
+    white-space: nowrap;
+    color: #000;
+    font-size: 12px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.j-container:hover .h-overlay {
+    height: 110px;
+}
+
+.j-container {
+    position: relative;
+    float: left;
+    height: 110px;
+    margin-left: 40px;
+    margin-right: 55px;
+}
+
+.font-style{
+    font-family: "Roboto-Light";
+}

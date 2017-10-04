@@ -2,6 +2,7 @@
     font-family: "Montserrat-Regular";
     src: url(../Fonts/Montserrat/Montserrat-Regular.otf);
 }
+
 @font-face {
     font-family: "Roboto-Light";
     src: url("../Fonts/Roboto/Roboto-Light.ttf");
@@ -42,6 +43,12 @@ body {
     color: #f1f1f1;
 }
 
+#mySidenav {}
+
+.nav {
+    
+}
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -50,16 +57,24 @@ body {
     margin-left: 50px;
 }
 
+
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 50px;
+        position: fixed;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
 
-.o-style{
+.o-style {
     font-family: "Montserrat-Regular";
     color: aliceblue;
 }
-#o-border{
+
+#o-border {
     border: 2px solid #fff;
     padding: 3px 3px;
+    
 }
